@@ -15,6 +15,7 @@
 		EFE430301BE1D67900BD66A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE4302E1BE1D67900BD66A9 /* LaunchScreen.storyboard */; };
 		EFE4303B1BE1D67A00BD66A9 /* LXDBlurNavControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE4303A1BE1D67A00BD66A9 /* LXDBlurNavControllerTests.m */; };
 		EFE430461BE1D67A00BD66A9 /* LXDBlurNavControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE430451BE1D67A00BD66A9 /* LXDBlurNavControllerUITests.m */; };
+		EFE430541BE1E00700BD66A9 /* bigShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = EFE430531BE1E00700BD66A9 /* bigShadow.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EFE430411BE1D67A00BD66A9 /* LXDBlurNavControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXDBlurNavControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE430451BE1D67A00BD66A9 /* LXDBlurNavControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXDBlurNavControllerUITests.m; sourceTree = "<group>"; };
 		EFE430471BE1D67A00BD66A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE430531BE1E00700BD66A9 /* bigShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigShadow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		EFE4301F1BE1D67900BD66A9 /* LXDBlurNavController */ = {
 			isa = PBXGroup;
 			children = (
+				EFE430531BE1E00700BD66A9 /* bigShadow.png */,
 				EFE430231BE1D67900BD66A9 /* AppDelegate.h */,
 				EFE430241BE1D67900BD66A9 /* AppDelegate.m */,
 				EFE430261BE1D67900BD66A9 /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE430541BE1E00700BD66A9 /* bigShadow.png in Resources */,
 				EFE430301BE1D67900BD66A9 /* LaunchScreen.storyboard in Resources */,
 				EFE4302D1BE1D67900BD66A9 /* Assets.xcassets in Resources */,
 				EFE4302B1BE1D67900BD66A9 /* Main.storyboard in Resources */,
@@ -412,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXDBlurNavController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.sindrilin.com.LXDBlurNavController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXDBlurNavController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.sindrilin.com.LXDBlurNavController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +502,7 @@
 				EFE4304C1BE1D67A00BD66A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE4304D1BE1D67A00BD66A9 /* Build configuration list for PBXNativeTarget "LXDBlurNavControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				EFE4304F1BE1D67A00BD66A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE430501BE1D67A00BD66A9 /* Build configuration list for PBXNativeTarget "LXDBlurNavControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				EFE430521BE1D67A00BD66A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
